@@ -1,0 +1,188 @@
+{% extends 'base.html' %}
+{% block pagetitle %}
+Plant Disease Detection
+{% endblock pagetitle %}
+{% block body %}
+<style>
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+ body {
+
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+}
+
+.container {
+    width: 90%; /* Set container width to 90% of the viewport width */
+    max-width: 1200px; /* Set maximum width to 1200px */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 15px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px 15px; /* Added bottom margin to rows */
+}
+.col {
+    flex: 1;
+    padding: 0 15px;
+    text-align: center;
+    border: 1px solid #ddd; /* Example border style */
+    background-color: #f9f9f9; /* Example background color */
+    border-radius: 5px; /* Example border radius */
+    margin-bottom: 15px; /* Example margin bottom */
+}
+
+
+.col img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    padding-top: 20px; /* Add padding on top of images */
+}
+
+.col h3 {
+    margin-bottom: 10px;
+}
+.col p {
+    margin-bottom: 15px;
+}
+  body{
+    overflow-x: hidden;
+  }
+
+  .laptop{
+      margin-bottom: 50px;
+      
+    }
+  @media only screen and (max-width: 830px) {
+    .laptop{
+      display: none;
+      
+    }
+  }
+  @media (min-width:830px) and (max-width: 1536px){
+    .mobile{
+      display: none;
+    }
+  }
+</style>
+<div class='mobile p-5'>
+  <div class="row mb-5 text-center text-white">
+    <div class="col-lg-10 mx-auto">
+      <h1 class="display-4" style="padding-top: 2%;font-weight: 400;color:red;"><b>Note✍🏻</b></h1>
+      <p class="lead" style="font-weight: 500;color: black;">Please🙏 Open This Site On Laptop/PC 💻 Screen Only</p>
+      <p class="lead" style="font-weight: 500;color: black;">Thank You 🤝</p>    
+    </div>
+</div>
+</div>
+
+<div class="row mb-5 text-center text-white laptop">
+    <div class="col-lg-10 mx-auto">
+        <h1 class="display-4" style="padding-top: 2%;font-weight: 400;color: rgb(4, 54, 4);"><b>🍁Plant Disease
+                Detection🍁 </b></h1>
+        <p class="lead" style="font-weight: 500;color: black;">This AI Engine Will Help To Detect Disease From Following Fruites And Veggies</p>
+    </div>
+</div>
+
+<center class="laptop">
+    <a href="/index">
+    <button class = "bttn-pill bttn-lg btn-success"><b style="color: black; ">AI Engine</b></button>
+</a>
+</center>
+
+<div class="container">
+  <!-- First Row -->
+  <div class="row">
+      <div class="col">
+          <img src="{{ url_for('static', filename = 'Apple.jpg') }}" alt="Apple">
+          <h3>Apple</h3>
+          <p>Apple is a popular fruit known for its sweet and crunchy taste. It is packed with vitamins, fiber, and antioxidants, making it a healthy choice for snacks or desserts.</p>
+      </div>
+      <div class="col">
+          <img src="{{ url_for('static', filename = 'cherry.jpg') }}" alt="Cherry">
+          <h3>Cherry</h3>
+          <p>Cherries are small, round fruits that come in various colors and flavors. They are rich in nutrients like vitamins, minerals, and antioxidants, offering numerous health benefits.</p>
+      </div>
+      <div class="col">
+          <img src="{{ url_for('static', filename = 'grapes.jpg') }}" alt="Grapes">
+          <h3>Grapes</h3>
+          <p>Grapes are delicious and juicy fruits that come in different colors like green, red, or purple. They are packed with vitamins, minerals, and antioxidants, promoting overall health and well-being.</p>
+      </div>
+  </div>
+  <!-- Second Row -->
+  <div class="row">
+      <div class="col">
+          <img src="{{ url_for('static', filename = 'blueberry.jpg') }}" alt="Blueberry">
+          <h3>Blueberry</h3>
+          <p>Blueberries are small, sweet, and nutritious berries that are rich in vitamins, minerals, and antioxidants. They are known for their potential health benefits, including improved heart health and brain function.</p>
+      </div>
+      <div class="col">
+          <img src="{{ url_for('static', filename = 'orange.jpg') }}" alt="Orange">
+          <h3>Orange</h3>
+          <p>Oranges are citrus fruits known for their tangy flavor and high vitamin C content. They are rich in antioxidants and fiber, supporting immune function, skin health, and digestion.</p>
+      </div>
+      <div class="col">
+          <img src="{{ url_for('static', filename = 'raspberry.jpg') }}" alt="Raspberry">
+          <h3>Raspberry</h3>
+          <p>Raspberries are small, red berries with a sweet and tangy taste. They are packed with vitamins, minerals, and antioxidants, offering various health benefits like improved digestion and heart health.</p>
+      </div>
+  </div>
+  <!-- Third Row -->
+  <div class="row">
+      <div class="col">
+          <img src="{{ url_for('static', filename = 'strawberry.jpg') }}" alt="Strawberries">
+          <h3>Strawberries</h3>
+          <p>Strawberries are bright red fruits with a sweet and juicy flavor. They are loaded with vitamins, fiber, and antioxidants, supporting heart health, weight management, and skin health.</p>
+      </div>
+      <div class="col">
+          <img src="{{ url_for('static', filename = 'peaches.jpg') }}" alt="Peaches">
+          <h3>Peaches</h3>
+          <p>Peaches are fuzzy fruits with a sweet and slightly tangy taste. They are rich in vitamins, minerals, and antioxidants, offering benefits like improved digestion and skin health.</p>
+      </div>
+      <div class="col">
+          <img src="{{ url_for('static', filename = 'pepperbell.jpg') }}" alt="Pepperbell">
+          <h3>Pepperbell</h3>
+          <p>Pepperbells, also known as bell peppers, come in various colors like red, yellow, and green. They are crunchy and sweet, rich in vitamins and antioxidants, promoting overall health.</p>
+      </div>
+  </div>
+  <!-- Fourth Row -->
+  <div class="row">
+      <div class="col">
+          <img src="{{ url_for('static', filename = 'corn.jpg') }}" alt="Corn">
+          <h3>Corn</h3>
+          <p>Corn is a starchy vegetable known for its sweet and delicious taste. It is rich in fiber, vitamins, and minerals, offering various health benefits like improved digestion and eye health.</p>
+      </div>
+      <div class="col">
+          <img src="{{ url_for('static', filename = 'pepperbell.jpg') }}" alt="Pepperbell">
+          <h3>Pepperbell</h3>
+          <p>Pepperbells, also known as bell peppers, come in various colors like red, yellow, and green. They are crunchy and sweet, rich in vitamins and antioxidants, promoting overall health.</p>
+      </div>
+      <div class="col">
+          <img src="{{ url_for('static', filename = 'Tomato.jpg') }}" alt="Tomato">
+          <h3>Tomato</h3>
+          <p>Tomatoes are juicy and nutritious fruits commonly used in cooking and salads. They are rich in vitamins, minerals, and antioxidants, supporting heart health, skin health, and overall well-being.</p>
+      </div>
+  </div>
+  <!-- Fifth Row -->
+  <div class="row">
+      <div class="col">
+          <img src="{{ url_for('static', filename = 'soybean.jpg') }}" alt="Soybean">
+          <h3>Soybean</h3>
+          <p>Soybeans are versatile legumes used in various dishes like tofu, tempeh, and soy milk. They are rich in protein, fiber, vitamins, and minerals, offering numerous health benefits.</p>
+      </div>
+      <div class="col">
+          <img src="{{ url_for('static', filename = 'squash.jpg') }}" alt="Squash">
+          <h3>Squash</h3>
+          <p>Squash refers to various types of fruits belonging to the gourd family. They come in different shapes, sizes, and colors, offering a wide range of flavors and nutrients.</p>
+      </div>
+      <div class="col">
+          <img src="{{ url_for('static', filename = 'gooseberry.jpg') }}" alt="Gooseberry">
+          <h3>Gooseberry</h3>
+          <p>Gooseberries are small, tart berries packed with vitamins, minerals, and antioxidants. They are used in jams, jellies, and desserts, offering a unique flavor and nutritional benefits.</p>
+      </div>
+  </div>
+</div>
+
+
+{% endblock body %}

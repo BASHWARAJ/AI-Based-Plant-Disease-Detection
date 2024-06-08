@@ -1,0 +1,114 @@
+{% extends 'base.html' %}
+{% block pagetitle %}
+Contact Us
+{% endblock pagetitle %}
+
+{% block body %}
+
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns per row */
+        gap: 20px; /* Gap between grid items */
+    }
+
+    .profile {
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Align items (including image) to the center horizontally */
+    }
+
+    .profile img {
+        width: 20%; /* Change the width of the image to 20% */
+        border-radius: 50%; /* To make the image circular */
+    }
+
+    .profile h3 {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .profile p {
+        text-align: center;
+    }
+
+    .social-links {
+        display: flex;
+        justify-content: center;
+    }
+
+    
+</style>
+
+<div class="row mb-5 text-center text-white laptop">
+    <div class="col-lg-10 mx-auto">
+        <h1 class="display-4" style="padding-top: 2%;font-weight: 400;color: rgb(4, 54, 4);"><b>📞Contact-Us📞</b></h1>
+        <p class="lead" style="font-weight: 500;color: black;">For Any Queries & Suggestions Contact Us. We Are Happy To
+            Help.</p>
+    </div>
+</div>
+
+<div class="grid-container">
+    <div class="profile">
+        <img src="\test_images\tomato_healthy.jpg" alt="Your Name">
+        <h3>Bashwaraj</h3>
+        <p>Hi, I am Bashwaraj. Currently Pursuing Bachelors in CSE(AI&ML)
+    
+                My Main Focus is on Machine Learning, Deep Learning and Artificial Intelligence.I am Also
+                    Interested in Data Science and  App Development</p>
+        <div class="social-links">
+            <a target="_blank" href=bashwarajsonkawade@gmail.com'><img
+                        src="https://cdn-icons-png.flaticon.com/128/732/732200.png" ></a>
+            <a target="_blank" href='linkedin.com/in/bashwarajsonkawade'><img
+                        src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" ></a>
+            <a target="_blank" href=https://github.com/BASHWARAJ'><img
+                        src="https://cdn-icons-png.flaticon.com/128/3291/3291695.png" ></a>
+        </div>
+    </div>
+    <!-- Repeat this profile two more times for a total of three -->
+    <div class="profile">
+        <img src="\test_images\tomato_healthy.jpg" alt="Your Name">
+        <h3>Mueed</h3>
+        <p>Description about yourself</p>
+        <div class="social-links">
+            <a target="_blank" href=bashwarajsonkawade@gmail.com'><img
+                        src="https://cdn-icons-png.flaticon.com/128/732/732200.png" ></a>
+            <a target="_blank" href=bashwarajsonkawade@gmail.com'><img
+                        src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" ></a>
+            <a target="_blank" href=bashwarajsonkawade@gmail.com'><img
+                        src="https://cdn-icons-png.flaticon.com/128/3291/3291695.png" ></a>
+        </div>
+    </div>
+    <!-- Additional Row -->
+    <div class="profile">
+        <img src="\test_images\tomato_healthy.jpg" alt="Your Name">
+        <h3>Jatin</h3>
+        <p>Data science enthusiast skilled in machine learning, statistics, and data visualization. Passionate about leveraging code to uncover insights from complex datasets. Committed to continuous learning and contributing to the data science community. I'm dedicated to advancing my skills and contributing to the data science community.</p>
+        <div class="social-links">
+            <a target="_blank" href=jaiswaljatin44@gmail.com'><img
+                        src="https://cdn-icons-png.flaticon.com/128/732/732200.png" ></a>
+            <a target="_blank" href=https://www.linkedin.com/in/jatin-jaiswal-20b353293/'><img
+                        src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" ></a>
+            <a target="_blank" href=https://github.com/JatinJ74'><img
+                        src="https://cdn-icons-png.flaticon.com/128/3291/3291695.png" ></a>
+        </div>
+    </div>
+    <div class="profile">
+        <img src="\test_images\tomato_healthy.jpg" alt="Your Name">
+        <h3>Anushka</h3>
+        <p>I am a recent graduate with a passion for software development, particularly in Python. I possess a solid foundation in computer science principles and have completed relevant coursework and projects that demonstrate my proficiency in Python programming</p>
+        <div class="social-links">
+            <a target="_blank" href=bashwarajsonkawade@gmail.com'><img
+                        src="https://cdn-icons-png.flaticon.com/128/732/732200.png" ></a>
+            <a target="_blank" href=bashwarajsonkawade@gmail.com'><img
+                        src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" ></a>
+            <a target="_blank" href=bashwarajsonkawade@gmail.com'><img
+                        src="https://cdn-icons-png.flaticon.com/128/3291/3291695.png" ></a>
+        </div>
+    </div>
+</div>
+
+{% endblock body %}
