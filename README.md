@@ -27,21 +27,19 @@
 * If you do not have leaf images then you can use test images located in test_images folder
 * Each Image have it's disease name so you can verify model is working perfact or not.
 
-## ⭐Blog Link
-<a href="https://medium.com/analytics-vidhya/plant-disease-detection-using-convolutional-neural-networks-and-pytorch-87c00c54c88f" target = "_blank">Plant Disease Detection Using Convolutional Neural Networks with PyTorch</a><br>
 
-## ⭐Deployed App
-<a href="https://plant-disease-detection-ai.herokuapp.com/" target = "_blank">Plant-Disease-Detection-AI</a><br>
+
+
 
 
 ## ⭐Snippet of Web App :
 #### Main page
-<img src = "demo_images/1.png" > <br>
+<img src = "demo_images/home.png" > <br>
 #### AI Engine 
-<img src = "demo_images/2.png"> <br>
+<img src = "/demo_images/AI.png"> <br>
 #### Results Page 
-<img src = "demo_images/3.png"> <br>
+<img src = "demo_images/result.png"> <br>
 #### Supplements/Fertilizer  Store
-<img src = "demo_images/4.JPG"> <br>
+<img src = "demo_images/supplements.JPG"> <br>
 #### Contact Us 
-<img src = "demo_images/5.png"> <br><br>
+<img src = "demo_images/contact-us.png"> <br><br>
