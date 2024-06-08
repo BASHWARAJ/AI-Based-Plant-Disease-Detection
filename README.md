@@ -40,6 +40,6 @@
 #### Results Page 
 <img src = "demo_images/result.png"> <br>
 #### Supplements/Fertilizer  Store
-<img src = "demo_images/supplements.JPG"> <br>
+<img src = "demo_images/supplement.pngG"> <br>
 #### Contact Us 
 <img src = "demo_images/contact-us.png"> <br><br>
