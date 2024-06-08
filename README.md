@@ -34,12 +34,12 @@
 
 ## ⭐Snippet of Web App :
 #### Main page
-<img src = "demo_images/main.png" > <br>
+<img src = "demo_images/home.png" > <br>
 #### AI Engine 
 <img src = "/demo_images/AI.png"> <br>
 #### Results Page 
 <img src = "demo_images/result.png"> <br>
 #### Supplements/Fertilizer  Store
-<img src = "demo_images/supplement.JPG"> <br>
+<img src = "demo_images/supplements.JPG"> <br>
 #### Contact Us 
 <img src = "demo_images/contact-us.png"> <br><br>
