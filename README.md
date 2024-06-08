@@ -27,19 +27,26 @@
 * If you do not have leaf images then you can use test images located in test_images folder
 * Each Image have it's disease name so you can verify model is working perfact or not.
 
+##⭐Firebase
+* use  google firebase for authentication and database purpose
 
 
 
 
 
 ## ⭐Snippet of Web App :
-#### Main page
-<img src = "demo_images/home.png" > <br>
+#### login page
+<img src = "demo_images/login.png" > <br>
+
+#### Home page
+<img src = "demo_images/home2.png" > <br>
 #### AI Engine 
 <img src = "/demo_images/AI.png"> <br>
 #### Results Page 
 <img src = "demo_images/result.png"> <br>
 #### Supplements/Fertilizer  Store
-<img src = "demo_images/supplement.pngG"> <br>
+<img src = "demo_images/supplement.png"> <br>
 #### Contact Us 
 <img src = "demo_images/contact-us.png"> <br><br>
+#### Firebase
+<img src = "demo_images/firebase_authentication.png"> <br><br>
